@@ -13,10 +13,10 @@ import dash_bootstrap_components as dbc
 
 
 def get_engine():
-    user = 'username'
-    password = 'password'
-    host = 'localhost'
-    database = 'postgres'
+    user = os.getenv('DB_USER', 'default_user')  
+    password = os.getenv('DB_PASSWORD', 'default_password')  
+    host = os.getenv('DB_HOST', 'localhost')
+    database = os.getenv('DB_NAME', 'new')
     return create_engine(f'postgresql+psycopg2://{user}:{password}@{host}/{database}')
 
 
