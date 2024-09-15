@@ -68,5 +68,5 @@ The datasets used are from [Invoices Data](https://www.kaggle.com/datasets/ghass
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/tymoteuszmilek/Invoice_Automation/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/tymoteuszmilek/Invoice-Automation/blob/main/LICENSE.md) file for details.
   
