@@ -54,7 +54,7 @@ git clone https://github.com/tymoteuszmilek/Invoice-Automation.git
     Use `\q` or `Ctrl + D` to exit the PostgreSQL command line interface.
 
 7. **Navigate to the `web` folder and update the database configuration in the Dash app script**:
-    ![database-configuration](screenshots/database_configuration.png)
+    ![database-configuration](screenshots/database_config.png)
     ```bash
     cd ../web
     ```
