@@ -3,3 +3,4 @@ pandas
 sqlalchemy
 matplotlib
 dash-bootstrap-components
+psycopg2-binary
