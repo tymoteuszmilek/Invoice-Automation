@@ -51,17 +51,17 @@ git clone https://github.com/tymoteuszmilek/Invoice-Automation.git
     ```sql
     \i run_initializer.sql
     ```
-6. **Navigate to the `web` folder and update the database configuration in the Dash app script**:
-	![database-configuration](screenshots/database_configuration.png)
+    Use `\q` or `Ctrl + D` to exit the PostgreSQL command line interface.
+
+7. **Navigate to the `web` folder and update the database configuration in the Dash app script**:
+    ![database-configuration](screenshots/database_configuration.png)
     ```bash
     cd ../web
     ```
-7. **Run the Dash application**:
+8. **Run the Dash application**:
     ```bash
-    python3 dashboard.py
+    python3 app.py
     ```
-
-## Data Description
 
 The datasets used are from [Invoices Data](https://www.kaggle.com/datasets/ghassenkhaled/invoices-data) on Kaggle. The data includes various invoices.
 
