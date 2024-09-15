@@ -58,7 +58,7 @@ git clone https://github.com/tymoteuszmilek/Invoice-Automation.git
     ```
 7. **Run the Dash application**:
     ```bash
-    python3 app.py
+    python3 dashboard.py
     ```
 
 ## Data Description
