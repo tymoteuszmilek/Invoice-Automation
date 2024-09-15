@@ -60,8 +60,6 @@ git clone https://github.com/tymoteuszmilek/Invoice-Automation.git
     ```bash
     python3 app.py
     ```
-```
-
 
 ## Data Description
 
