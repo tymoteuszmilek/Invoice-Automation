@@ -40,7 +40,7 @@ git clone https://github.com/tymoteuszmilek/Invoice-Automation.git
 4. **Navigate to the `db_scripts` folder and log in to PostgreSQL**:
     ```bash
     cd ../db_scripts
-    psql -U [username] [database_name]
+    psql -U [username]
     ```
 5. **Create a new database and connect to it**:
 	```sql
